@@ -8,4 +8,9 @@
   
 ## Class List
 
-1. class PDM
+### 1. class PDM 
+   encaplsulate M5, TFT_eSPI, FFT into class PDM to build PDM spectrum analysor so clearly and simply.
+   ```
+   
+   ```
+
