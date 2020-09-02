@@ -27,6 +27,7 @@
       pdm.microPhoneFFT();
     }
    ```
+   Hardware requirement: M5Stack core,PDM microphone
    
   ## Original Author
     
