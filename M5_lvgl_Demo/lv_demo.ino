@@ -10,27 +10,27 @@ static lv_obj_t * t3;
 static lv_style_t style_box;
 
 void btn_check() {
-  if (M5.BtnA.wasPressed())
+  if (M5.BtnA.wasReleased())
   {
     Serial.print("BtnA \n ");
-    lv_tabview_set_tab_act( tv,0 , LV_ANIM_OFF);
+      lv_tabview_set_tab_act( tv,0, LV_ANIM_OFF);
   }
   if (M5.BtnB.wasPressed())
   {
     Serial.print("BtnB \n ");
-    lv_page_scroll_ver( t2, 50);
+    lv_page_scroll_ver( lv_tabview_get_tab(tv,lv_tabview_get_tab_act(tv)), 50);
   }
    if (M5.BtnC.wasPressed())
   {
     Serial.print("BtnC \n ");
-    lv_page_scroll_ver( t2, -50);
+    lv_page_scroll_ver( lv_tabview_get_tab(tv,lv_tabview_get_tab_act(tv)), -50);
   }
-  
 }
 
 void lv_demo_widgets(void)
 {
   tv = lv_tabview_create(lv_scr_act(), NULL);
+  lv_tabview_set_anim_time(tv,0);
   if (LV_THEME_DEFAULT_INIT == lv_theme_material_init) {
     lv_disp_size_t disp_size = lv_disp_get_size_category(NULL);
     if (disp_size >= LV_DISP_SIZE_MEDIUM) {
