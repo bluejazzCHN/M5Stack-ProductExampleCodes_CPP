@@ -30,6 +30,8 @@
    Hardware requirement: M5Stack core,PDM microphone
 # Example M5_lvgl_Demo  
   Migrate Lvgl example to M5Core2
+# Example Atom_rainbow
+  Neopixel in M5Atom
 # Original Author
     
   songjiangzhang@hotmail.com
