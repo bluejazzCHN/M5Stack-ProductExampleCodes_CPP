@@ -1,5 +1,5 @@
 
-### if you want to use other keyboard type, you can change keyboard type in M5_lvgl_Demo.ino
+## If you want to use other keyboard type, you can change keyboard type in M5_lvgl_Demo.ino
     
     void lv_ex_textarea(void)
     {
@@ -9,7 +9,7 @@
     ......
     }
  
-### if you want to change keyboard function, you can change below function in your code
+## If you want to change keyboard function, you can change below function in your code
 
     static void ta_event_cb(lv_obj_t * ta, lv_event_t event)
     {
