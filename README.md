@@ -32,6 +32,8 @@
   Migrate Lvgl example to M5Core2
 # Example Atom_rainbow
   Neopixel in M5Atom
+# Example InkCore
+  inkClock in InkCore with two Timers to update NTP and RTC
 # Original Author
     
   songjiangzhang@hotmail.com
