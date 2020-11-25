@@ -34,6 +34,7 @@
   Neopixel in M5Atom
 # Example InkCore
   inkClock in InkCore with two Timers to update NTP and RTC
+  ![](https://github.com/bluejazzCHN/M5Stack-ProductExampleCodes_CPP/blob/master/InkCore/InkClock.jpg)
 # Original Author
     
   songjiangzhang@hotmail.com
