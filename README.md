@@ -39,7 +39,7 @@
   
   How to use native TFT_eSPI in Core2?
   
-  ### Step1: TFT_eSPI.h include User_setup_Select.h to find TFT drivers
+  ### Step1: TFT_eSPI.h use User_setup_Select.h to find TFT driver and font setting
   
   ```
   /***************************************************************************************
